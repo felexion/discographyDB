@@ -1,0 +1,231 @@
+/* css of taylor swift page omg xd wow
+
+GUIDE: here are the corresponding hexcodes for
+the colors of div with respect
+to the color scheme of its respective
+album as based on the layout.
+
+taylor swift - 013342
+fearless - 424103
+speak now - 261833
+(r)ed - 420602
+1989 - 595344
+reputation - 383838
+lover - 665057
+folklore - 494949
+evermore - 443d34
+midnights - 282f41
+
+these codes were obtained with photoscape's
+color eyedropper feature
+
+*/
+
+body {
+  background-color: #080607;
+  font-family: "Abel";
+}
+
+.mainTitle {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 15mm;
+}
+
+.mainSubtitle {
+  color: white;
+  margin-bottom: 2%;
+  margin-top: 0;
+  margin-left: 2%;
+  font-size: 8mm;
+  font-weight: lighter;
+}
+
+.missAmericana {
+  position: fixed;
+  margin-right: 0;
+  margin-bottom: 0;
+  bottom: 0px;
+  right: 0px;
+}
+
+#wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.albumData {
+  display: inline-block;
+  border-radius: 15px;
+  margin: 2%;
+  height: 143px;
+  width: 479px;
+}
+
+.albumCover {
+  align-self: right;
+}
+
+/* order is top - right - bottom - left */
+
+.albumCoverIMG {
+  border-radius: 20%;
+  padding: 20px;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.text {
+  max-width: 500px;
+  text-align: center;
+}
+
+/* INDIVIDUAL TEXT DATA */
+
+.textOne {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+  font-size: 58px;
+}
+
+.textTwoEdOne {
+  color: white;
+  margin: 0 30px 0 30px;
+  font-size: 60px;
+  line-height: 1.3cm;
+}
+
+.textTwoEdTwo {
+  font-weight: lighter;
+  margin: 0 30px 0 30px;
+  font-size: 33px;
+  color: white;
+}
+
+.textThree {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+  font-size: 58px;
+}
+
+.textFourEdOne {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 11px;
+  color: white;
+  font-size: 84px;
+  float: left;
+}
+
+.textFourEdTwo {
+  text-align: center;
+  padding-top: 49px;
+  margin-right: 30px;
+  color: white;
+  font-size: 31px;
+  float: right;
+  font-weight: lighter;
+}
+
+.textFive {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 30px;
+  color: white;
+  font-size: 80px;
+}
+
+.textSix {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+  font-size: 60px;
+}
+
+.textSeven {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 30px;
+  color: white;
+  font-size: 70px;
+}
+
+.textEight {
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 30px;
+  color: white;
+  font-size: 60px;
+}
+
+.textNine {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 30px;
+  color: white;
+  font-size: 60px;
+}
+
+.textTen {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 30px;
+  color: white;
+  font-size: 60px;
+}
+
+/* ALBUM COLOR */
+
+.albumOne {
+  background-color: #013342;
+}
+
+.albumTwo {
+  background-color: #424103;
+}
+
+.albumThree {
+  background-color: #261833;
+}
+
+.albumFour {
+  background-color: #420602;
+}
+
+.albumFive {
+  background-color: #595344;
+}
+
+.albumSix {
+  background-color: #383838;
+}
+
+.albumSeven {
+  background-color: #665057;
+}
+
+.albumEight {
+  background-color: #494949;
+}
+
+.albumNine {
+  background-color: #443d34;
+}
+
+.albumTen {
+  background-color: #282f41;
+}
+
+footer {
+  margin: 2%;
+  color: white;
+  font-size: 20px;
+}
