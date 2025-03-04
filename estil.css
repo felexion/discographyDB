@@ -26,6 +26,19 @@ body {
   font-family: "Abel";
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
 .mainTitle {
   margin-top: 2%;
   margin-left: 2%;
@@ -33,6 +46,8 @@ body {
   color: white;
   font-weight: bold;
   font-size: 15mm;
+  white-space: nowrap;
+  flex-grow: 1;
 }
 
 .mainSubtitle {
@@ -51,6 +66,24 @@ body {
   bottom: 0px;
   right: 0px;
 }
+
+.imgHyperlinks {
+  display: flex;
+  gap: 30px;
+  margin-right: 2%;
+}
+
+.imgHyperlinks a img {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.spotifyLink {
+  height: 80px;
+  width: 80px;
+}
+
 
 #wrapper {
   display: flex;
